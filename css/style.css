@@ -26,6 +26,10 @@
     padding: 0;
 }
 
+.tabs_form .one_link {
+  background-color: #007fff;
+}
+
 .tabs_form li {
   background-color: #fff;
   display: inline-block;
@@ -43,7 +47,12 @@
   text-decoration: none;
 }
 
-.tab_1,
+.tab_1{
+  display: block;
+  margin: 0 auto;
+  width: 480px;
+}
+
 .tab_2,
 .tab_3 {
   display: none;
