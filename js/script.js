@@ -9,7 +9,9 @@ $(function () {
   $threeList = $('.three_link'),
   $tab_1 = $('.tab_1'),
   $tab_2 = $('.tab_2'),
-  $tab_3 = $('.tab_3');
+  $tab_3 = $('.tab_3'),
+  $container = $('.container'),
+  $wrapper = $('.wrapper');
 
   $oneList.on('click', function () {
     $(this).css({
@@ -19,6 +21,9 @@ $(function () {
       display: 'block'
     });
     $twoList.css({
+      background: '#fff'
+    });
+    $threeList.css({
       background: '#fff'
     });
     $tab_2.css({
@@ -55,7 +60,14 @@ $(function () {
       background: '#007fff'
     });
     $tab_3.css({
-      display: 'block'
+      display: 'block',
+      height: '85%'
+    });
+    $wrapper.css({
+      overflow: 'auto'
+    });
+    $container.css({
+      height: '100%'
     });
     $oneList.css({
       background: '#fff'
@@ -71,5 +83,4 @@ $(function () {
       display: 'none'
     });
   });
-
 });

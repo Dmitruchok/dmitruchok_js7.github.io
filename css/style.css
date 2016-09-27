@@ -1,14 +1,14 @@
 .wrapper {
   margin: 100px auto;
-  width: 600px;
+  width: 620px;
+  height: 370px;
   border: 1px solid #c5c5c5;
 }
 
 .container {
-  margin: 10px 0 60px 10px;
+  margin: 10px 0 0 10px;
   width: 580px;
   height: 300px;
-  /*overflow: scroll;*/
   border: 1px solid #c5c5c5;
   border-radius: 4px;
 }
@@ -36,7 +36,7 @@
   list-style: none;
   border: 1px solid #c5c5c5;
   border-bottom: 0;
-  border-radius: 3px;
+  border-radius: 3px 3px 0 0;
   height: 40px;
 }
 
@@ -47,15 +47,17 @@
   text-decoration: none;
 }
 
+.container p {
+  margin: 30px 30px;
+}
+
 .tab_1{
   display: block;
   margin: 0 auto;
-  width: 480px;
 }
 
 .tab_2,
 .tab_3 {
   display: none;
   margin: 0 auto;
-  width: 480px;
 }
