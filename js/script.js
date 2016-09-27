@@ -20,6 +20,12 @@ $(function () {
     $tab_1.css({
       display: 'block'
     });
+    $wrapper.css({
+      overflow: 'none'
+    });
+    $container.css({
+      height: 'auto'
+    });
     $twoList.css({
       background: '#fff'
     });
@@ -41,6 +47,12 @@ $(function () {
     $tab_2.css({
       display: 'block'
     });
+    $wrapper.css({
+      overflow: 'none'
+    });
+    $container.css({
+      height: 'auto'
+    });
     $oneList.css({
       background: '#fff'
     });
@@ -61,7 +73,7 @@ $(function () {
     });
     $tab_3.css({
       display: 'block',
-      height: '85%'
+      height: 'auto'
     });
     $wrapper.css({
       overflow: 'auto'
