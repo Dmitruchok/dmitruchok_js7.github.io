@@ -24,7 +24,7 @@ $(function () {
       overflow: 'none'
     });
     $container.css({
-      height: 'auto'
+      margin: '10px 0px 10px 10px'
     });
     $twoList.css({
       background: '#fff'
@@ -51,7 +51,7 @@ $(function () {
       overflow: 'none'
     });
     $container.css({
-      height: 'auto'
+      margin: '10px 0px 10px 10px'
     });
     $oneList.css({
       background: '#fff'
