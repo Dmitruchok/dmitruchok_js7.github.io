@@ -79,7 +79,7 @@ $(function () {
       overflow: 'auto'
     });
     $container.css({
-      height: '100%'
+      margin: '10px 0 10px 10px'
     });
     $oneList.css({
       background: '#fff'
